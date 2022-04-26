@@ -1,0 +1,315 @@
+body{
+background-image: url(pics/backgr.jpg);
+background-repeat: none;
+}
+h1 {
+    font-family: "Serifiqo 4F Free Capitals";
+}
+p {
+    margin: 10px;
+    text-align: center;
+    font-size: 19pt;
+    font-family: "LiteraturnayaBook"; 
+}
+.ds1{
+    background-color: black;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    opacity: .8;
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    bottom: 442px;
+    margin: 0 0 0 60px;
+    padding: 15px 15px 0;
+}
+.ds2{
+    background-color: black;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    opacity: .8;
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    left: 665px;
+    bottom: 442px;
+    padding: 15px 15px 0;
+    
+}
+.ds3{
+    background-color: black;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    opacity: .8;
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    left: 1263px;
+    bottom: 444px;
+    padding: 15px 15px 0;
+}
+.ds1char{
+    background-color: black;
+    border: 1.8px solid rgb(192, 126, 2);
+    border-radius: 12px;
+    opacity: .9;
+    width: 550px;
+    height: 390px;
+    position: absolute;
+    left: 65px;
+    bottom: 21px;
+    padding: 15px 15px 0;
+}
+.art_info{
+    float: left;
+    width: 265px;
+    height: 318px;
+    margin: 0;
+}
+.art_name {
+    display: block;
+    text-align: center;
+    color: rgb(252, 172, 25);
+    width: 260px;
+    margin: 5px;
+    font-family: "LiteraturnayaBook";
+    font-size: 17.6pt;
+    line-height: 0.7cm;
+}
+.art_pict{
+    display: inline-block;
+    overflow: hidden;
+    width: 248px;
+    border: 2px;
+    border-radius: 12px;
+    margin: 6px;
+    transition: 0.3s;
+}
+.art_pict:hover{
+    transform: scale(1.2);
+}
+.sif_info {
+    float: right;
+    width: 265px;
+    height: 318px;
+}
+.sif_name{
+    display: block;
+    text-align: center;
+    font-family: "LiteraturnayaBook";
+    width: 248px;
+    margin: 5px;
+    font-size: 17.6pt;
+    line-height: 0.7cm;
+    color: rgb(252, 172, 25);
+}
+.sif_pict{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    right: 16px;
+    width: 268px;
+    border: 2px;
+    border-radius: 12px;
+    margin: 6px;
+    transition: 0.3s;
+}
+.sif_pict:hover{
+    transform: scale(1.2);
+}
+.ds2char{
+    background-color: black;
+    border: 1.8px solid rgb(126, 13, 255);
+    border-radius: 12px;
+    opacity: .8;
+    width: 550px;
+    height: 390px;
+    position: absolute;
+    left: 664px;
+    bottom: 20px;
+    padding: 15px 15px 0;
+}
+.luca_info{
+    float: left;
+    width: 265px;
+    height: 318px;
+    margin: 0;
+}
+.luca_name{
+    display: block;
+    text-align: center;
+    width: 248px;
+    margin: 5px;
+    font-family: "LiteraturnayaBook";
+    font-size: 18pt;
+    line-height: 0.7cm;
+    color: rgb(160, 88, 241);
+}
+.luca_pict{
+    display: inline-block;
+    overflow: hidden;
+    width: 248px;
+    border: 2px;
+    border-radius: 12px;
+    margin: 6px;
+    transition: 0.3s;
+}
+.luca_pict:hover{
+    transform: scale(1.2);
+}
+.vend.info {
+    float: right;
+    width: 265px;
+    height: 318px;
+}
+.vend_name{
+    font-family: "LiteraturnayaBook";
+    margin: 5px;
+    font-size: 17.85pt;
+    line-height: 0.7cm;
+    color: rgb(160, 88, 241);
+}
+.vend_pict{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    left: 14px;
+    width: 248px;
+    border: 2px;
+    border-radius: 12px;
+    margin: 6px;
+    transition: 0.3s;
+}
+.vend_pict:hover{
+    transform: scale(1.2);
+}
+.ds3char{
+    background-color: black;
+    border: 1.8px solid rgb(255, 9, 9);
+    border-radius: 12px;
+    opacity: 1;
+    width: 550px;
+    height: 390px;
+    position: absolute;
+    left: 1263px;
+    bottom: 20px;
+    padding: 15px 15px 0;
+}
+.fire_info{
+    float: left;
+    width: 265px;
+    height: 318px;
+    margin: 0;
+}
+.fire_name{
+    display: block;
+    text-align: center;
+    width: 260px;
+    margin: 5px;
+    font-family: "LiteraturnayaBook";
+    font-size: 18pt;
+    line-height: 1.4cm;
+    color: rgb(219, 16, 16);
+}
+.fire_pict{
+    display: inline-block;
+    overflow: hidden;
+    width: 248px;
+    border: 2px;
+    border-radius: 12px;
+    margin: 6px;
+    transition: 0.3s;
+}
+.fire_pict:hover{
+    transform: scale(1.2);
+}
+.siegw_info {
+    float: right;
+    width: 265px;
+    height: 318px;
+}
+.siegw_name{
+    font-family: "LiteraturnayaBook";
+    margin: 5px;
+    font-size: 17.85pt;
+    line-height: 0.7cm;
+    color: rgb(219, 16, 16);
+}
+.siegw_pict{
+    display: inline-block;
+    overflow: hidden;
+    width: 248px;
+    border: 2px;
+    border-radius: 12px;
+    margin: 6px;
+    transition: 0.3s;
+}
+.siegw_pict:hover{
+    transform: scale(1.2);
+}
+a.art_bio{
+    text-decoration: none;
+    color: rgb(252, 172, 25);
+    transition: 0.4s;
+}
+a.art_bio:hover{
+    text-shadow: 2px -4px 5px rgb(255, 201, 101);
+    color: rgb(253, 200, 25);
+}
+a.sif_bio{
+    text-decoration: none;
+    color: rgb(252, 172, 25);
+    transition: 0.4s;
+}
+a.sif_bio:hover{
+    text-shadow: 2px -4px 5px rgb(255, 201, 101);
+    color: rgb(253, 200, 25);
+}
+a.luca_bio{
+    text-decoration: none;
+    color: rgb(160, 88, 241);
+    transition: 0.4s;
+}
+a.luca_bio:hover{
+    text-shadow: 2px -4px 5px rgb(186, 134, 247);
+    color: rgb(206, 163, 255);
+}
+a.vend_bio{
+    text-decoration: none;
+    color: rgb(160, 88, 241);
+    transition: 0.4s;
+}
+a.vend_bio:hover{
+    text-shadow: 2px -4px 5px rgb(186, 134, 247);
+    color: rgb(206, 163, 255);
+}
+a.fire_bio{
+    text-decoration: none;
+    color: rgb(219, 16, 16);
+    transition: 0.4s;
+}
+a.fire_bio:hover{
+    text-shadow: 2px -4px 5px rgb(248, 53, 53);
+    color: rgb(240, 106, 106);
+}
+a.siegw_bio{
+    text-decoration: none;
+    color: rgb(219, 16, 16);
+    transition: 0.4s;
+}
+a.siegw_bio:hover{
+    text-shadow: 2px -4px 5px rgb(248, 53, 53);
+    color: rgb(240, 106, 106);
+}
+@font-face {
+    font-family: "LiteraturnayaBook"; 
+    src: url("fonts/LiteraturnayaBook.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }  
+@font-face {
+    font-family: "Serifiqo 4F Free Capitals"; 
+    src: url("fonts/Serifiqo 4F Free Capitals.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }  
