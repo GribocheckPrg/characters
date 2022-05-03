@@ -1,0 +1,92 @@
+body{
+    background-image: url(pics/vend_back.jpg);
+}
+.bio{
+    width: 800px;
+    height: 900px;
+    position: absolute;
+    left: 5px;
+    margin: 9px;
+    padding: 10px;
+    border: 5px;
+    border-radius: 25px;
+    background-color: black;
+    opacity: .9;
+}
+h1{
+    margin: 5px 4px 4px 0px;
+    font-family: "Serifiqo 4F Free Capitals";
+    text-align: center;
+    color:rgb(120, 92, 247);
+}
+.bio_txt{
+    font-size: 17pt;
+    font-family: "LiteraturnayaBook";
+    color: rgb(151, 255, 123);
+    line-height: 23px;
+}
+.vend_right{
+    width: 355px;
+    height: 880px;
+    margin: 5px;
+    position: absolute;
+    left: 1500px;
+    top: 45px;
+}
+.vend_boss{
+    width: 350px;
+    margin: 1px;
+    border: 3px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.vend_boss:hover{
+    transform: scale(1.1);
+}
+.vend_solo{
+    width: 350px;
+    margin: 1px;
+    border: 3px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.vend_solo:hover{
+    transform: scale(1.1);
+}
+.back_to_main{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 905px;
+    left: 1600px;
+    margin: 30px 0px 0px 30px;
+    transition: 0.5s;
+}
+a.main_link{
+    margin: 15px 0px 0px 25px;
+    text-decoration: none;
+    font-family: "LiteraturnayaBook";
+    font-size: 24pt;
+    color: rgb(77, 107, 240);
+    transition: 0.4s;
+    text-align: center;
+}
+a.main_link:hover{
+    text-shadow: 2px -4px 5px rgb(91, 12, 182);
+    color: rgb(135, 155, 245);
+}
+p{
+    margin: 15px 0px 13px;
+}
+@font-face {
+    font-family: "LiteraturnayaBook"; 
+    src: url("fonts/LiteraturnayaBook.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Serifiqo 4F Free Capitals"; 
+    src: url("fonts/Serifiqo 4F Free Capitals.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }

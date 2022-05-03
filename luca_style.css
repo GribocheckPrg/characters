@@ -1,0 +1,102 @@
+body{
+    background-image: url(pics/luca_back.png);
+    background-size: 1920px;
+}
+.bio{
+    width: 950px;
+    height: 800px;
+    position: absolute;
+    left: 5px;
+    margin: 10px;
+    padding: 15px;
+    border: 5px;
+    border-radius: 25px;
+    background-color: black;
+    opacity: .9;
+}
+h1{
+    margin: 14px 4px 4px 0px;
+    font-family: "Serifiqo 4F Free Capitals";
+    text-align: center;
+    color:rgb(23, 171, 67);
+}
+.bio_txt{
+    margin-top: 5px;
+    font-size: 19pt;
+    font-family: "LiteraturnayaBook";
+    color: rgb(255, 233, 160);
+    line-height: 25px;
+    float: right;
+}
+.pics{
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    top: 640px;
+    left: 1530px;
+}
+.broth{
+    width: 325px;
+    position: relative;
+    bottom: 8px;
+    border: 3px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.broth:hover{
+    transform: scale(1.1);
+}
+.luca_right{
+    width: 425px;
+    height: 790px;
+    margin: 15px;
+    position: absolute;
+    left: 1460px;
+    top: 45px;
+}
+.luca_hi{
+    width: 400px;
+    position: relative;
+    margin: 20px 0px 0px 10px;
+    border: 3px;
+    border-radius: 25px;
+    transform: scale(-1, 1);
+}
+.back_to_main{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 885px;
+    left: 1620px;
+    margin: 30px 0px 0px 30px;
+    transition: 0.5s;
+}
+a.main_link{
+    margin: 15px 0px 0px 25px;
+    text-decoration: none;
+    font-family: "LiteraturnayaBook";
+    font-size: 24pt;
+    color: rgb(77, 107, 240);
+    transition: 0.4s;
+    text-align: center;
+}
+a.main_link:hover{
+    text-shadow: 2px -4px 5px rgb(91, 12, 182);
+    color: rgb(135, 155, 245);
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+@font-face {
+    font-family: "LiteraturnayaBook"; 
+    src: url("fonts/LiteraturnayaBook.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Serifiqo 4F Free Capitals"; 
+    src: url("fonts/Serifiqo 4F Free Capitals.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
